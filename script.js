@@ -34,7 +34,7 @@ function mod(a,b) {
 /*--------------------CALCULATION-------------------------*/
 
 /*---------------------*/
-/*TO FIND OPERATION*/
+/*TO GET OPERATION*/
 /*---------------------*/
 function operator_finder() {
     for (var i = 0 ; i <=5 ; i++) {
@@ -69,4 +69,5 @@ function output(a,b,operator) {
 
 
 /*------------------OUTPUT DISPLAYING-------------------------*/
+
 document.querySelector(".current-operand p").innerHTML = "calculated_value";
