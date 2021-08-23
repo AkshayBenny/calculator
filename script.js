@@ -1,7 +1,15 @@
-var operator, calutated_value,a = 0, b = 0;
+var operator, calculated_value,a = 0, b = 0;
+
+
+/*--------------------GETTING VALUES OF THE VARIABLES-------------------------*/
+
+function a_value() {
+    for 
+}
 
 
 
+/*--------------------OPERATION FUNCTIONS-------------------------*/
 function add(a,b) {
     return a+b;
 }
@@ -23,7 +31,11 @@ function mod(a,b) {
 }
 
 
+/*--------------------CALCULATION-------------------------*/
 
+/*---------------------*/
+/*TO FIND OPERATION*/
+/*---------------------*/
 function operator_finder() {
     for (var i = 0 ; i <=5 ; i++) {
         var btn_value = document.querySelectorAll(".sign")[i].value;
@@ -47,8 +59,14 @@ function operator_finder() {
 }
 
 
+/*---------------------*/
+/*FINAL OUTPUT*/
+/*---------------------*/
+
 function output(a,b,operator) {
     return calculated_value = operator(a,b);
 }
 
+
+/*------------------OUTPUT DISPLAYING-------------------------*/
 document.querySelector(".current-operand p").innerHTML = "calculated_value";

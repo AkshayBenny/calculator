@@ -1,3 +1,6 @@
+/*---------------------*/
+/*GENERAL STYLES*/
+/*---------------------*/
 * {
     box-sizing: border-box;
     padding: 0;
@@ -17,7 +20,9 @@ body {
     
 }
 
-
+/*---------------------*/
+/*OUTPUT STYLES*/
+/*---------------------*/
 .output-container {
     background-color: rgb(48, 48, 48);
     min-height:80px;
@@ -44,6 +49,10 @@ body {
     color:white;
 }
 
+
+/*---------------------*/
+/*BUTTON STYLES*/
+/*---------------------*/
 .btn {
     background-color:rgb(48, 48, 48);
     margin:1px;
@@ -85,6 +94,10 @@ button {
     width:162px;
 }
 
+
+/*---------------------*/
+/*ADDITIONAL EFFECTS*/
+/*---------------------*/
 .btn:hover {
     background-color:rgb(32, 32, 32);
 }
