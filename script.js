@@ -3,11 +3,6 @@ var operator, calculated_value,a = 0, b = 0;
 
 /*--------------------GETTING VALUES OF THE VARIABLES-------------------------*/
 
-function a_value() {
-    for 
-}
-
-
 
 /*--------------------OPERATION FUNCTIONS-------------------------*/
 function add(a,b) {
